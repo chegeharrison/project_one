@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+body{
+  height: 100vh;
+  background-color: bisque;
+}
+/* nav start */
+.logo > img {
+  height: 100px;
+  width: 100px;
+}
+.logo{
+  border: 1px solid black;
+  
+}
+.menu{
+/* border: 1px solid blue; */
+justify-content: space-between;
+display: flex;
+word-spacing: 50px;
+margin: auto ;
+}
+.navbar{
+  border: 1px solid red;
+  width: 100vw;
+  align-items: center;
+  /* justify-content: space-between;  */
+  display: flex;
+}
+
+
+
+nav,ul,li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px,19px;
+}
+nav,ul,li,a{
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* nav end */
+
+/* hero section start */
+.info{
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+h1{
+  font-family: "Roboto Light";
+  color: darkviolet;
+  margin-bottom: 15px;
+}
+.info, p{
+  line-height: 25px;
+}
+.info a {
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: #3333aa;
+  margin: 30px;
+  display: inline-block;
+  border-radius: 10px;
+
+}
+.images {
+  float: right;
+  height: 60%;
+  width: 60%;
+
+}
+.images img {
+  position: absolute;
+  height: 100%;
+  left: 50;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
